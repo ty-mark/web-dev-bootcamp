@@ -1,0 +1,64 @@
+li {
+	border: 2px solid red;
+}
+
+#special {
+	background: yellow
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+/*Selectors type*/
+
+/*Element*/
+li {}
+
+/*Class*/
+.hello{}
+
+/*ID*/
+#something {}
+
+/*Star*/
+* {
+	/*gives all stuff on the page*/
+	border: 1px solid lightgrey;
+}
+
+/*Descendant*/
+li a {
+	/*for all anchor elements within a list*/
+	color: red;
+}
+
+/*Adjacent*/
+h4 + ul {
+	/*for all unordered list that sit at the same level but after the h4*/
+	border: 4px solid red
+}
+
+/*Attribute*/
+a[href="http://www.google.com"] {
+	/*for all anchor elements with google link*/
+	background: blue;
+}
+
+/*nth of type*/
+ul:nth-of-type(3) {
+	 /*selector the nth unordered list element*/
+	background: purple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
